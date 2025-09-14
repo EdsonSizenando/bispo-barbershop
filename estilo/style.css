@@ -21,7 +21,7 @@ body{
 }
 
 header{
-    height: 100px;
+    height: 120px;
     background-color: rgb(15, 14, 14);
     color: white;
     display: flex;
@@ -60,33 +60,5 @@ nav#menu a:hover {
     color: black;
     border-radius: 15px;
     transition: color 0.3s;
-}
-
-.container{
-    border: 2px solid red;
-    width: 70vw;
-    height: 600px;
-    display: grid;
-    grid-template-rows: 4fr 2fr 2fr;
-    grid-template-columns: 40% 60%;
-    
-    
-    margin: auto;
-    margin-top: 40px;
-
-}
-
-.caixa{
-   border: 1px solid blue;
-}
-
-#perfil{
-    background-image: url('../imagens/fotoperfil.jpg');
-    background-size: cover;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    
-    
-    
 }
 

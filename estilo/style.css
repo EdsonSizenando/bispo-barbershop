@@ -21,11 +21,11 @@ body{
 }
 
 header{
-    height: 120px;
+    height: 100px;
     background-color: rgb(15, 14, 14);
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.33);
     border-radius: 5px;
@@ -43,7 +43,7 @@ header > img {
 nav#menu ul{
     list-style: none;
     display: flex;
-    gap: 3px;
+    gap: 2px;
     
 }
 
@@ -64,16 +64,13 @@ nav#menu a:hover {
     
 }
 
-section.radio {
-    height: 100px;
-}
 
 div.container{
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 15px;
     max-width: 800px;
-    padding: 20px;
+    padding: 15px 15px 15px 5px;
 }
 
 div.container img {
@@ -115,13 +112,13 @@ div.texto p {
 }
 
 div.missao {
-    height: 400px;
+    height: 450px;
     max-width: 350px;
     background-image: url('../imagens/ambiente2.jpg');
     background-size: cover;
     background-position: center;
-    margin: 20px 50px;
-    padding: 15px;
+    margin: 50px 50px;
+    padding: 20px;
     border-radius: 45px 4px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.47);
     
@@ -155,7 +152,7 @@ div.tabela img{
     display: block;
     margin: auto;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
     border-radius: 60px 30px;
     ;
     
@@ -168,6 +165,7 @@ div.produtos {
     max-width: 420px;
     margin: auto;
     padding-top: 15px;
+    padding-bottom: 40px;
     border-radius: 50px 10px;
 }
 

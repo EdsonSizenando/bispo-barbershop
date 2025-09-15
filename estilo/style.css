@@ -43,16 +43,16 @@ header > img {
 nav#menu ul{
     list-style: none;
     display: flex;
-    gap: 2px;
+    gap: 1px;
     
 }
 
 nav#menu a{
     text-decoration: none;
-    font-size: .9em;
+    font-size: .8em;
     color: rgb(227, 212, 212);
     font-weight: 600;
-    padding: 5px;
+    padding: 4px;
     
 }
 
